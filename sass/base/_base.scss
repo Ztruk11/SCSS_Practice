@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+/* The above is a browser reset and used to override the browser giver styles */
+
+/* Set root font-size to 10px so math to REM is easy defines what 1rem is*/
+html {
+    font-size: 62.5%;
+}
+
+/* project wise font definitions */
+body {
+    box-sizing: border-box;
+}
